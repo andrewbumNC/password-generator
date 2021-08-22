@@ -26,7 +26,7 @@ function askPasswordOptions() {
   if (counter > 20 || counter < 0) {
     alert("You've done this TWENTY times now!!! Maybe take a break.");
   } else {
-    // this is for collecting all of my inputs
+  // this is for collecting all of my inputs
     
     var upperCase = confirm("Do you want your password to contain uppercase characters?");
     var lowerCase = confirm("Do you want your password to contain lowercase characters?");
@@ -40,7 +40,7 @@ function askPasswordOptions() {
       userLength = alert("Your password is too long");
       askPasswordOptions()
     }
-    // after user selects password inputs this concats each of the selected input arrays to a single array
+    // after user selects password inputs this concats each of the selected input arrays to a single array and selects one random character from each array select to include in password.
 
     if (upperCase) {
       startOfPassword = upperCaseOptions[Math.floor(Math.random() * upperCaseOptions.length)]
