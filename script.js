@@ -1,8 +1,8 @@
 // Variables needed at global scope
-var upperCaseOptions = ['A', 'B', 'C', 'D', 'E','F','G','H','I',];
-var lowerCaseOptions = ['a', 'b', 'c', 'd', 'e','f','g','h','i',];
-var symbolOptions = ['@', '$', '%', '*', '!','#','^','&','(',];
-var numberOptions = ['1', '2', '3', '4', '5','6','7','8','9',];
+var upperCaseOptions = ['A', 'B', 'C', 'D', 'E','F','G','H','I','J','K','L','O','M','N','P','Q','R','S','T','U','V','W','X','Y','Z'];
+var lowerCaseOptions = ['a', 'b', 'c', 'd', 'e','f','g','h','i','j','k','l','o','m','n','p','q','r','s','t','u','v','w','x','y','z'];
+var symbolOptions = ['@', '$', '%', '*', '!','#','^','&','(',')'];
+var numberOptions = ['1', '2', '3', '4', '5','6','7','8','9','0'];
 var counter = 0;
 var password = document.querySelector("#password")
 var userSelections = [];
