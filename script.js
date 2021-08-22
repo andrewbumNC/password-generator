@@ -16,6 +16,7 @@ generate.addEventListener("click", function () {
   password.textContent = '';
   finalPassword = []
   userSelections = []
+  startOfPassword = []
   askPasswordOptions()
 })
 
