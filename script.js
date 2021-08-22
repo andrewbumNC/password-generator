@@ -24,7 +24,7 @@ generate.addEventListener("click", function () {
 function askPasswordOptions() {
   counter++
   if (counter > 20 || counter < 0) {
-    alert("You've done this TWENTY times now!!! Maybe take a break.");
+    alert("You have exceeded your attempts. Please try again later.");
   } else {
   // this is for collecting all of my inputs
     
@@ -32,7 +32,7 @@ function askPasswordOptions() {
     var lowerCase = confirm("Do you want your password to contain lowercase characters?");
     var symbols = confirm("Do you want your password to contain special characters?");
     var numbers = confirm("Do you want number characters in your password?");
-    var userLength = prompt("How long do you want your password to be");
+    var userLength = prompt("Do you want your password to contain numbers?");
     if (userLength < 8) {
       userLength = alert("Your password is not long enough");
       askPasswordOptions()
